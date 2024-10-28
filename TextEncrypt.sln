@@ -1,0 +1,146 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encryptor", "TextEncrypt\Encryptor.csproj", "{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}"
+	ProjectSection(ProjectDependencies) = postProject
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84} = {687EE02F-50B8-4199-A442-6CF9EFC76B84}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D4CEAD42-FEFD-4C22-B5A7-3F287E7D128B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSA", "RSA\RSA.vcxproj", "{687EE02F-50B8-4199-A442-6CF9EFC76B84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decryptor", "Decryptor\Decryptor.csproj", "{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cryptopp_UnitTest", "Cryptopp_UnitTest\Cryptopp_UnitTest.vcxproj", "{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{F13AA5AB-C3A9-46AC-AD0C-79790438E0AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DLL-Import Debug|Any CPU = DLL-Import Debug|Any CPU
+		DLL-Import Debug|x64 = DLL-Import Debug|x64
+		DLL-Import Debug|x86 = DLL-Import Debug|x86
+		DLL-Import Release|Any CPU = DLL-Import Release|Any CPU
+		DLL-Import Release|x64 = DLL-Import Release|x64
+		DLL-Import Release|x86 = DLL-Import Release|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.Debug|x64.Build.0 = Debug|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.Debug|x86.Build.0 = Debug|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.DLL-Import Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.DLL-Import Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.DLL-Import Debug|x64.ActiveCfg = Debug|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.DLL-Import Debug|x64.Build.0 = Debug|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.DLL-Import Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.DLL-Import Debug|x86.Build.0 = Debug|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.DLL-Import Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.DLL-Import Release|Any CPU.Build.0 = Release|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.DLL-Import Release|x64.ActiveCfg = Release|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.DLL-Import Release|x64.Build.0 = Release|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.DLL-Import Release|x86.ActiveCfg = Release|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.DLL-Import Release|x86.Build.0 = Release|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.Release|x64.ActiveCfg = Release|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.Release|x64.Build.0 = Release|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9FC9A0D-8B68-4DE9-ACBD-58588CD07B20}.Release|x86.Build.0 = Release|Any CPU
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.Debug|Any CPU.Build.0 = Debug|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.Debug|x64.ActiveCfg = Debug|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.Debug|x64.Build.0 = Debug|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.Debug|x86.ActiveCfg = Debug|Win32
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.Debug|x86.Build.0 = Debug|Win32
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.DLL-Import Debug|Any CPU.ActiveCfg = Debug|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.DLL-Import Debug|Any CPU.Build.0 = Debug|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.DLL-Import Debug|x64.ActiveCfg = Debug|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.DLL-Import Debug|x64.Build.0 = Debug|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.DLL-Import Debug|x86.ActiveCfg = Debug|Win32
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.DLL-Import Debug|x86.Build.0 = Debug|Win32
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.DLL-Import Release|Any CPU.ActiveCfg = Release|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.DLL-Import Release|Any CPU.Build.0 = Release|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.DLL-Import Release|x64.ActiveCfg = Release|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.DLL-Import Release|x64.Build.0 = Release|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.DLL-Import Release|x86.ActiveCfg = Release|Win32
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.DLL-Import Release|x86.Build.0 = Release|Win32
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.Release|Any CPU.ActiveCfg = Release|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.Release|Any CPU.Build.0 = Release|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.Release|x64.ActiveCfg = Release|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.Release|x64.Build.0 = Release|x64
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.Release|x86.ActiveCfg = Release|Win32
+		{687EE02F-50B8-4199-A442-6CF9EFC76B84}.Release|x86.Build.0 = Release|Win32
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.Debug|x64.Build.0 = Debug|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.Debug|x86.Build.0 = Debug|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.DLL-Import Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.DLL-Import Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.DLL-Import Debug|x64.ActiveCfg = Debug|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.DLL-Import Debug|x64.Build.0 = Debug|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.DLL-Import Debug|x86.ActiveCfg = Debug|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.DLL-Import Debug|x86.Build.0 = Debug|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.DLL-Import Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.DLL-Import Release|Any CPU.Build.0 = Release|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.DLL-Import Release|x64.ActiveCfg = Release|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.DLL-Import Release|x64.Build.0 = Release|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.DLL-Import Release|x86.ActiveCfg = Release|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.DLL-Import Release|x86.Build.0 = Release|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.Release|x64.ActiveCfg = Release|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.Release|x64.Build.0 = Release|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.Release|x86.ActiveCfg = Release|Any CPU
+		{A99A3DD3-F1C9-49FD-9C67-AB181DCD7D33}.Release|x86.Build.0 = Release|Any CPU
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.Debug|Any CPU.Build.0 = Debug|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.Debug|x64.ActiveCfg = Debug|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.Debug|x64.Build.0 = Debug|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.Debug|x86.Build.0 = Debug|Win32
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.DLL-Import Debug|Any CPU.ActiveCfg = Debug|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.DLL-Import Debug|Any CPU.Build.0 = Debug|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.DLL-Import Debug|x64.ActiveCfg = Debug|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.DLL-Import Debug|x64.Build.0 = Debug|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.DLL-Import Debug|x86.ActiveCfg = Debug|Win32
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.DLL-Import Debug|x86.Build.0 = Debug|Win32
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.DLL-Import Release|Any CPU.ActiveCfg = Release|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.DLL-Import Release|Any CPU.Build.0 = Release|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.DLL-Import Release|x64.ActiveCfg = Release|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.DLL-Import Release|x64.Build.0 = Release|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.DLL-Import Release|x86.ActiveCfg = Release|Win32
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.DLL-Import Release|x86.Build.0 = Release|Win32
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.Release|Any CPU.ActiveCfg = Release|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.Release|Any CPU.Build.0 = Release|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.Release|x64.ActiveCfg = Release|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.Release|x64.Build.0 = Release|x64
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.Release|x86.ActiveCfg = Release|Win32
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CF0076B-1762-4A4E-901F-E3B21C69F0F2} = {F13AA5AB-C3A9-46AC-AD0C-79790438E0AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DADDCD55-F4A0-4307-9654-F513CE0E3C94}
+	EndGlobalSection
+EndGlobal
